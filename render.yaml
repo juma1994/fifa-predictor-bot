@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: fifa-prediction-bot
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: BOT_TOKEN
+        value: 7424110473:AAGE3OUXrkgI60oQ3Qk-iiwSKFErML1kpcQ
+      - key: CHANNEL_ID
+        value: @statistika_fifa_penalty_fast2
